@@ -14,15 +14,11 @@ describe('SocialDetails', () => {
       'href',
       'https://www.linkedin.com/in/banchito/'
     );
-    // cy.get("[data-testid='visit']").should(
-    //   'have.attr',
-    //   'href',
-    //   'https://www.linkedin.com/in/banchito/'
-    // );
+
     cy.get("[data-testid='source-code']").should(
       'have.attr',
       'href',
-      'https://github.com/banchito'
+      'https://github.com/banchito/Portfolio'
     );
   });
 });

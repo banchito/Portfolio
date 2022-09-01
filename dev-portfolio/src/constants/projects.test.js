@@ -1,13 +1,13 @@
 const { projects } = require("./constans");
 
-test("Project details are correct", () => {
+test('Project details are correct', () => {
   expect(projects).toMatchInlineSnapshot(`
     Array [
       Object {
         "description": "A responsive website integrating visual and React.js component testing estrategies.",
         "id": 0,
         "image": "/images/1.png",
-        "source": "https://google.com",
+        "source": "https://github.com/banchito/Portfolio",
         "tags": Array [
           "NextJS",
           "Node",
@@ -20,4 +20,3 @@ test("Project details are correct", () => {
   `);
 });
 
-test("", () => {});

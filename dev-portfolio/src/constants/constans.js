@@ -3,7 +3,7 @@ const projects = [
     title: 'Esteban Portfolio Website',
     description:
       'A responsive website integrating visual and React.js component testing estrategies.',
-    image: '/images/1.png',
+    image: '/images/portfolio.png',
     tags: ['NextJS', 'Node', 'Cypress', 'Happo.io'],
     source: 'https://github.com/banchito/Portfolio',
     id: 0,

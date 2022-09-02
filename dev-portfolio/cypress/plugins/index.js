@@ -1,4 +1,3 @@
-/// <reference types="cypress" />
 // ***********************************************************
 // This example plugins/index.js can be used to load plugins
 //
@@ -17,7 +16,15 @@
  */
 // eslint-disable-next-line no-unused-vars
 const happoTask = require('happo-cypress/task');
+const { lighthouse, prepareAudit } = require('@cypress-audit/lighthouse');
 
 module.exports = (on) => {
   happoTask.register(on);
+  on('before:browser:launch', (browser = {}, launchOptions) => {
+    prepareAudit(launchOptions);
+  });
+
+  on('task', {
+    lighthouse: lighthouse(),
+  });
 };

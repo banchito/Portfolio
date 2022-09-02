@@ -6,7 +6,7 @@ test('Project details are correct', () => {
       Object {
         "description": "A responsive website integrating visual and React.js component testing estrategies.",
         "id": 0,
-        "image": "/images/1.png",
+        "image": "/images/portfolio.png",
         "source": "https://github.com/banchito/Portfolio",
         "tags": Array [
           "NextJS",

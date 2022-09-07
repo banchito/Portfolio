@@ -9,6 +9,7 @@ describe('SocialDetails', () => {
       'href',
       'https://github.com/banchito'
     );
+
     cy.get("[data-testid='linkedin']").should(
       'have.attr',
       'href',
@@ -20,5 +21,13 @@ describe('SocialDetails', () => {
       'href',
       'https://github.com/banchito/Portfolio'
     );
+
+    cy.get("[data-testid='resume']").should(
+      'have.attr',
+      'href',
+      'https://banchito.github.io/Resume/'
+    );
   });
 });
+
+ 

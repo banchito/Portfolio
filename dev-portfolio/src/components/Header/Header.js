@@ -26,6 +26,16 @@ const Header = () => (
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
+      <li>
+        <NavLink
+          href={socialUrls.resume}
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="resume"
+        >
+          Resume
+        </NavLink>
+      </li>
     </Div2>
     <Div3>
       <SocialIcons
@@ -84,7 +94,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;

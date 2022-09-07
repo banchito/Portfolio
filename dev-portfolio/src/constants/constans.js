@@ -28,6 +28,7 @@ const TimeLineData = [
 const socialUrls = {
   github: 'https://github.com/banchito',
   linkedIn: 'https://www.linkedin.com/in/banchito/',
+  resume: 'https://banchito.github.io/Resume/',
 };
 
 const accomplishments = [

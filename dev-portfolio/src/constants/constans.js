@@ -12,13 +12,16 @@ const projects = [
 
 const TimeLineData = [
   {
+    year: 2022,
+    text: 'Full time freelance contractor. ',
+  },
+  {
+    year: 2020,
+    text: 'Succesfully completed Web Development Coding Bootcamp.',
+  },
+  {
     year: 2019,
     text: 'Started my software developing journey as intern at Streamily.com.',
-  },
-  { year: 2020, text: 'Succesfully completed Web Development Coding Bootcamp.' },
-  {
-    year: 2021,
-    text: 'Transitioned from intern to Contractor. ',
   },
 ];
 

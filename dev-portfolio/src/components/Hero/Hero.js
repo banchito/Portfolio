@@ -11,8 +11,8 @@ const Hero = () => (
         Hello There <br /> I am Esteban
       </SectionTitle>
       <SectionText>
-        Full Stack developer specialized in JavaScript across both front and
-        back end. Experience building complete web applications.
+        Full Stack developer specializing in JavaScript across both front and
+        back end. Experienced in building responsive tested web applications.
       </SectionText>
       <Button onClick={() => (window.location = '#about')}>About me</Button>
     </LeftSection>

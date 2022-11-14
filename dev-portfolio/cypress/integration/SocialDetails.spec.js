@@ -18,8 +18,8 @@ describe('SocialDetails', () => {
     cy.get("[data-testid='source-code']").should(
       'have.attr',
       'href',
-      'https://github.com/banchito/Portfolio' ||
-        'https://world-cup-alpha.vercel.app/'
+      'https://github.com/banchito/world_cup' ||
+        'https://github.com/banchito/Portfolio'
     )
   })
 })

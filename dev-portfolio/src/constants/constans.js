@@ -1,14 +1,25 @@
 const projects = [
   {
+    title: 'World Cup Bet',
+    description:
+      'A responsive website to bet with friends over the results of every match of the soccer 2022 World Cup.',
+    image: '/images/worldCup.png',
+    tags: ['React', 'Firebase'],
+    source: 'https://github.com/banchito/world_cup',
+    id: 0,
+    visit: 'https://world-cup-alpha.vercel.app/',
+  },
+  {
     title: 'Esteban Portfolio Website',
     description:
       'A responsive website integrating visual and React.js component testing estrategies.',
     image: '/images/portfolio.png',
     tags: ['NextJS', 'Node', 'Cypress', 'Happo.io'],
     source: 'https://github.com/banchito/Portfolio',
-    id: 0,
+    id: 1,
+    visit: '',
   },
-];
+]
 
 const TimeLineData = [
   {

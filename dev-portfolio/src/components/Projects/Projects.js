@@ -10,7 +10,7 @@ import { projects } from '../../constants/constans';
 
 
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id='projects'>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
@@ -19,7 +19,7 @@ const Projects = () => (
           <BlogCard key={id}>
             <Img src={image} />
             <TitleContent>
-              <HeaderThree title="true">{title}</HeaderThree>
+              <HeaderThree title='true'>{title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
@@ -32,21 +32,23 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              {id !== 0 && (
+              {id !== projects[projects.length - 1].id ? (
                 <ExternalLinks
                   href={visit}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-testid="visit"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  data-testid='visit'
                 >
                   View App
                 </ExternalLinks>
+              ) : (
+                ''
               )}
               <ExternalLinks
                 href={source}
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="source-code"
+                target='_blank'
+                rel='noopener noreferrer'
+                data-testid='source-code'
               >
                 Source Code
               </ExternalLinks>
@@ -56,7 +58,7 @@ const Projects = () => (
       )}
     </GridContainer>
   </Section>
-);
+)
 
 export default Projects;
 

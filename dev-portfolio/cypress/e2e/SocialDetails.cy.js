@@ -19,8 +19,9 @@ describe('SocialDetails', () => {
     cy.get("[data-testid='source-code']").should(
       'have.attr',
       'href',
-      'https://github.com/banchito/Portfolio'
-    );
+      'https://github.com/banchito/world_cup' ||
+        'https://github.com/banchito/Portfolio'
+    )
 
     cy.get("[data-testid='resume']").should(
       'have.attr',
